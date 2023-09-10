@@ -1,0 +1,130 @@
+<html>
+    <head>
+           <center> <image src ="C:\Users\nayak\Desktop\peslogo.jpeg" length="80" width="160"></image></center><br>
+            <title>PES FORM</title>
+            <link rel="stylesheet" type="text/css" href="stylepage.css">
+    </head>
+    <body>
+
+        
+        <form>
+            
+        <center><h1>PES STUDENT SURVEY FORM</h1></center><br>
+        <ul>
+        <li><label>NAME :</label>
+        <input type="text" size="20"  maxlength="30" name="name"></li><br>
+        <li><label>SRN :</label>
+        <input type="text" size="20"  maxlength="13" name="SRN"></li><br>
+    
+
+
+  
+  <li><label for="email">Email:</label>
+  <input type="email" id="email" name="email" required></li><br>
+  
+  <li><label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="12" required></li>
+  
+        <br><li>DEPARTMENT: CS(AIML)</li>
+       <li> <p>SECTION:<form action="" >
+            
+                <select id="department_id" class="form-control" style="width:10%" required="">
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>       
+            </select>
+            </p></ul><br></li>
+               </form>
+               <table  border =1% cellpadding =5 width = "80%" ">
+                <caption>STUDENT FACULTY FEEDBACK</caption>
+                <th>SL.no</th>
+                    <tH>subject</tH>
+                    <th>NOT GOOD</th>
+                    <th>GOOD</th>
+                    <th>EXCELLENT</th>
+                    
+                <tr><td>1</td>
+                    <td>SDCA</td>
+                    <td><input type="radio" name="sdca"></td>
+                    <td><input type="radio" name="sdca"></td>
+                    <td><input type="radio" name="sdca"></td>
+                </tr>
+                <tr><td>2</td>
+                    <td>DSA</td>
+                    <td><input type="radio" name="DSA"></td>
+                    <td><input type="radio" name="DSA"></td>
+                    <td><input type="radio" name="DSA"></td>
+                </tr>
+                <tr><td>3</td>
+                    <td>WEB TECHNOLOGY</td>
+                    <td><input type="radio" name="WEB TECHNOLOGY"></td>
+                    <td><input type="radio" name="WEB TECHNOLOGY"></td>
+                    <td><input type="radio" name="WEB TECHNOLOGY"></td>
+                </tr>
+                <tr><td>4</td>
+                    <td>AFLL</td>
+                    <td><input type="radio" name="AFLL"></td>
+                    <td><input type="radio" name="AFLL"></td>
+                    <td><input type="radio" name="AFLL"></td>
+                </tr>
+                <tr><td>5</td>
+                    <td>SDS</td>
+                    <td><input type="radio" name="SDS"></td>
+                    <td><input type="radio" name="SDS"></td>
+                    <td><input type="radio" name="SDS"></td>
+                </tr>
+        </table>
+        <h2>HOW WELL DO EACH OF THE FOLLOWING DECRIBE YOU?</h2>
+        <table  border =1 cellpadding =5 width = "80%" ">
+                <th></th>
+                <th>DISAGREE</th>
+                <th>AGREE</th>
+                <th>STRONGLY AGREE</th>
+            <tr><td>I really want to learn</td>
+                <td><input type="radio" name="1"></td>
+                <td><input type="radio" name="1"></td>
+                <td><input type="radio" name="1"></td>
+
+            </tr>
+            <tr><td>I participate regularly in class activites</td>
+                <td><input type="radio" name="2"></td>
+                <td><input type="radio" name="2"></td>
+                <td><input type="radio" name="2"></td>
+                
+            </tr>
+            <tr><td>I often need extra help with college work</td>
+                <td><input type="radio" name="3"></td>
+                <td><input type="radio" name="3"></td>
+                <td><input type="radio" name="3"></td>
+                
+            </tr>
+            <tr><td>I get distracted very easily</td>
+                <td><input type="radio" name="1"></td>
+                <td><input type="radio" name="1"></td>
+                <td><input type="radio" name="1"></td>
+                
+            </tr>
+        </table><br>
+        <form id="myform">
+            <a href="https://pes.edu/" align="margin-right">PESU OFFICIAL PAGE</a><br>
+            If u have any other feedback  :<br>
+            <textarea rows=3 cols=60 label="--PLease enter your text--" ></textarea>
+           
+           
+             <p>Your feedback is valuable to us and will help us enhance our academic programs and campus facilities.<br>
+                 Please fill in this form with honesty and care, as it will benefit you in the long run.<br>
+                <i>I have understood and responsibly filled this form</i> 
+                 <input type="checkbox" name="feedback"></p><br>
+                <input type="submit">
+                <input type="reset">
+            
+        </form>
+        <script>
+            document.getElementById("myform").addEventListener("submit",function (event)
+            {
+                event.preventDefault();
+                alert("Successfully submitted");
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+body
+{
+    padding: 30px;
+    background-color: rgb(241, 225, 202);
+}
+table
+{
+    background-color: rgb(220, 223, 245);
+}
+h2{
+    font-size:medium;
+}
+caption
+{
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  
+}
